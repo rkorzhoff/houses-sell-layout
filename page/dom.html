@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/dom.css">
+</head>
+<body>
+    <header>
+        <div class="border">
+            <hr class="borders borders--green">
+            <hr class="borders borders--greenYel">
+            <hr class="borders borders--yellow">
+            <hr class="borders borders--black">
+        </div>
+        <div class="container">
+            <div class="header_inner">
+                <div class="logo">
+                    <img src="../images/page1/logo/logo.png" alt="" id="logo">
+                </div>
+                <nav class="nav_header">
+                    <a href="../index.html" class="nav_link">Главная</a>
+                    <a href="podbor.html" class="nav_link">Дома 2020</a>
+                    <a href="podbor.html" class="nav_link">Дом с участком</a>
+                    <a href="technology.html" class="nav_link">Технологии</a>
+                    <a href="postroenDom.html" class="nav_link">Построенные дома</a>
+                    <a href="#" class="nav_link">О нас/Контакт</a>
+                </nav>
+            </div>
+        </div>
+        <nav class="nav_hud">
+          <a href="podbor.html#" class="nav_hud_link">Участок/без участка</a>
+            <a href="podbor.html#" class="nav_hud_link">Экстерьер</a>
+            <a href="podbor.html#" class="nav_hud_link">Планировка</a>
+            <a href="podbor.html#" class="nav_hud_link">Опции</a>
+            <a href="podbor.html#" class="nav_hud_link">Персональная информация</a>
+        </nav>
+    </header>
+    <intro>
+      <div class="container">
+          <div class="section_title">Подбор участка</div>
+          <div class="border border--section">
+              <hr class="borders borders--green">
+              <hr class="borders borders--greenYel">
+              <hr class="borders borders--yellow">
+              <hr class="borders borders--black">
+          </div>
+      </div>
+      <div class="map">
+          <div class="container conteiner--map">
+              <div class="site_search">
+                  <div class="select_name">Стоимость</div>
+                  <select class="select" name="min_price" size="1">
+                      <option selected value="price1">1 000 000</option>
+                      <option value="price2">2 000 000</option>
+                      <option value="price3">3 000 000</option>
+                      <option value="price4">4 000 000</option>
+                      <option value="price5">5 000 000</option>
+                      <option value="price6">6 000 000</option>
+                      <option value="price7">7 000 000</option>
+                      <option value="price8">8 000 000</option>
+                      <option value="price9">9 000 000</option>
+                      <option value="price10">10 000 000</option>
+                  </select>
+                  <select class="select" name="max_price" size="1">
+                      <option value="price1">1 000 000</option>
+                      <option value="price2">2 000 000</option>
+                      <option value="price3">3 000 000</option>
+                      <option value="price4">4 000 000</option>    price<option value="price5">5 000 000</option>
+                      <option value="price6">6 000 000</option>
+                      <option value="price7">7 000 000</option>
+                      <option value="price8">8 000 000</option>
+                      <option value="price9">9 000 000</option>
+                      <option selected value="price10">10 000 000</option>
+                  </select>
+                  <input type="range" min="0" max="10" class="site_search_input">
+                  <div class="site_search_item">
+                      <div>1м</div>
+                      <div>5м</div>
+                      <div>10м</div>
+                  </div>
+                  <div class="select_name">Район</div>
+                  <select name="select_place" id="" class="select">
+                      <option selected value="place1">Север</option>
+                      <option value="place2">Юг</option>
+                      <option value="place3">Запад</option>
+                      <option value="place4">Восток</option>
+                  </select>
+                  <div class="select_name">Поселок</div>
+                  <select name="select_village" id="" class="select">
+                      <option selected value="village1">Новое Выхино</option>
+                      <option value="village2">Старое Выхино</option>
+                      <option value="village3">Обычное Выхино</option>
+                  </select>
+                  <div class="select_name">Комуникации</div>
+                  <select name="select_communication" id="" class="select" style="margin-bottom: 50px";>
+                      <option selected value="communication1">газ/свет/вода</option>
+                      <option value="communication2">газ/свет</option>
+                      <option value="communication3">газ</option>
+                      <option value="communication4">свет/вода</option>
+                      <option value="communication5">свет</option>
+                      <option value="communication6">вода</option>
+                  </select>
+                  <buttom class="select_search">Найти</buttom>
+              </div>
+              <div class="site_description">
+                  <div class="site_description_item">
+                      <div class="site_description_title">Местоположение</div>
+                      <div class="site_description_text">
+                          <div class="site_description_linear">
+                              <div class="tochka"></div><div>Ломоносовский район</div>
+                          </div>
+                          <div class="site_description_linear">
+                              <div class="tochka"></div><div>Пениковское с/пос, д. Сойкино, Новое Сойкино</div>
+                          </div>
+                          <div class="site_description_linear">
+                              <div class="tochka"></div><div>КАД 2 км</div>
+                          </div>
+                          <div class="site_description_linear">
+                              <div class="tochka"></div><div>39 км до Санкт-Петербург (Балтийский вокзал)</div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="site_description_item">
+                      <div class="site_description_title">Земля</div>
+                      <div class="site_description_text">
+                          <div class="site_description_linear">
+                              <div class="tochka"></div><div>ИЖС </div>
+                          </div>
+                          <div class="site_description_linear">
+                              <div class="tochka"></div><div>4-12 соток</div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="site_description_item">
+                      <div class="site_description_title">Комуникации</div>
+                      <div class="site_description_text">
+                          <div class="site_description_linear">
+                              <div class="tochka"></div><div>Электричество</div>
+                          </div>
+                          <div class="site_description_linear">
+                              <div class="tochka"></div><div>Вода</div>
+                          </div>
+                          <div class="site_description_linear">
+                              <div class="tochka"></div><div>ЛОС</div>
+                          </div>
+                          <div class="site_description_linear">
+                              <div class="tochka"></div><div>Дороги асфальт</div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="site_description_item">
+                      <div class="site_description_title">Инфраструктура</div>
+                      <div class="site_description_text">
+                          <div class="site_description_linear">
+                              <div class="tochka"></div><div>Спортивная площадка</div>
+                          </div>
+                          <div class="site_description_linear">
+                              <div class="tochka"></div><div>Детские площадки</div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="site_description_item">
+                      <div class="site_description_title">Окружение</div>
+                      <div class="site_description_text">
+                          <div class="site_description_linear">
+                              <div class="tochka"></div><div>Парк</div>
+                          </div>
+                          <div class="site_description_linear">
+                              <div class="tochka"></div><div>5 Школ</div>
+                          </div>
+                          <div class="site_description_linear">
+                              <div class="tochka"></div><div>3 Детских сада</div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="site_description_item">
+                      <div class="site_description_title">Безопасность</div>
+                      <div class="site_description_text">
+                          <div class="site_description_linear">
+                              <div class="tochka"></div><div>Ограждение поселка</div>
+                          </div>
+                          <div class="site_description_linear">
+                              <div class="tochka"></div><div>Круглосуточная охрана</div>
+                          </div>
+                          <div class="site_description_linear">
+                              <div class="tochka"></div><div>Пост охраны</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </intro>
+    <section class="section">
+        <div class="section_title">Дома 2020</div>
+        <div class="border border--section">
+            <hr class="borders borders--green">
+            <hr class="borders borders--greenYel">
+            <hr class="borders borders--yellow">
+            <hr class="borders borders--black">
+        </div>
+        <div class="house2020Big">
+            <button id="arrow--left" class="arrow">&#9668;</button>
+            <div class="slider_house2020Big">
+                <div class="house2020Big_item">
+                   <div class="house2020Big_item_img">
+                       <div class="house2020Big_item_img_border"></div>
+                       <div class="house2020Big_item_img_bg"></div>
+                       <img class="house2020Big_item_img_border_img" style="width: 100%; max-width: 435px;" alt="" src="../images/Home/house2020/4big.jpg">
+                       <div class="trg"></div>
+                   </div>
+                    <div class="house2020Big_text">
+                        <div class="house2020Big_text_name">evolo</div>
+                        <div class="house2020Big_text_area">150 кв.м.</div>
+                        <div class="house2020Big_text_cost">4 500 000 р</div>
+                        <div id="arrow--down" class="arrow"></div>
+                    </div>
+                </div>
+                <div class="house2020Big_item">
+                   <div class="house2020Big_item_img">
+                       <div class="house2020Big_item_img_border"></div>
+                       <div class="house2020Big_item_img_bg"></div>
+                       <img class="house2020Big_item_img_border_img" style="width: 100%; max-width: 435px;" alt="" src="../images/Home/house2020/1big.jpg">
+                       <div class="trg"></div>
+                   </div>
+                    <div class="house2020Big_text">
+                        <div class="house2020Big_text_name">evolo</div>
+                        <div class="house2020Big_text_area">150 кв.м.</div>
+                        <div class="house2020Big_text_cost">4 500 000 р</div>
+                        <div id="arrow--down" class="arrow"></div>
+                    </div>
+                </div>
+                <div class="house2020Big_item">
+                   <div class="house2020Big_item_img">
+                       <div class="house2020Big_item_img_border"></div>
+                       <div class="house2020Big_item_img_bg"></div>
+                       <img class="house2020Big_item_img_border_img" style="width: 100%; max-width: 435px;" alt="" src="../images/Home/house2020/4big.jpg">
+                       <div class="trg"></div>
+                   </div>
+                    <div class="house2020Big_text">
+                        <div class="house2020Big_text_name">evolo</div>
+                        <div class="house2020Big_text_area">150 кв.м.</div>
+                        <div class="house2020Big_text_cost">4 500 000 р</div>
+                        <div id="arrow--down" class="arrow"></div>
+                    </div>
+                </div>
+                <div class="house2020Big_item">
+                   <div class="house2020Big_item_img">
+                       <div class="house2020Big_item_img_border"></div>
+                       <div class="house2020Big_item_img_bg"></div>
+                       <img class="house2020Big_item_img_border_img" style="width: 100%; max-width: 435px;" alt="" src="../images/Home/house2020/4big.jpg">
+                       <div class="trg"></div>
+                   </div>
+                    <div class="house2020Big_text">
+                        <div class="house2020Big_text_name">evolo</div>
+                        <div class="house2020Big_text_area">150 кв.м.</div>
+                        <div class="house2020Big_text_cost">4 500 000 р</div>
+                        <div id="arrow--down" class="arrow"></div>
+                    </div>
+                </div>
+            </div>
+            <button id="arrow--right" class="arrow">&#9658;</button>
+        </div>
+        <div class="house2020">
+            <button id="arrow--left2" class="arrow arrow">&#9668;</button>
+            <div class="slider_house2020">
+                <div class="house2020_item">
+                    <img style="width: 100%;" src="..\images\Home\house2020\1smole.jpg" alt="">
+                </div>
+                <div class="house2020_item">
+                    <img style="width: 100%;" src="../images/Home/house2020/2smole.jpg" alt="">
+                </div>
+                <div class="house2020_item">
+                    <img style="width: 100%;" src="../images/Home/house2020/3smole.jpg" alt="">
+                </div>
+                <div class="house2020_item">
+                    <img style="width: 100%;" alt="" src="../images/Home/house2020/4smole.jpg">
+                </div>
+                <div class="house2020_item">
+                    <img style="width: 100%;" alt="" src="../images/Home/house2020/4smole.jpg" alt="">
+                </div>
+            </div>
+            <button id="arrow--right2" class="arrow">&#9658;</button>
+        </div>
+        <div class="hose2020_slider_border">
+            <div class="hose2020_slider_border_item"></div>
+            <div class="hose2020_slider_border_item"></div>
+            <div class="hose2020_slider_border_item"></div>
+            <div class="hose2020_slider_border_item"></div>
+       </div>
+       <div class="container">
+           <button class="house2020_botton">Смотреть все проекты</button>
+       </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="tami100">
+                <div class="tami100_item">
+                    <img  alt="" src="..\images\podbor\tami100\tami100_1.jpg" class="img1">
+                      <div class="border border--lumi100" id="three_1">
+                          <hr class="borders borders--green">
+                          <hr class="borders borders--greenYel">
+                          <hr class="borders borders--yellow">
+                          <hr class="borders borders--black">
+                      </div>
+                    <div class="tami100_slider">
+                       <div class="tami100_slider_img"><img style="width: 100%; max-width: 182px;" alt="" src="..\images\podbor\tami100\tami100_2.jpg"></div>
+                       <div class="tami100_slider_img"><img style=" border-image: none; width: 100%; max-width: 182px;" alt="" src="..\images\podbor\tami100\tami100_2.jpg"></div>
+                       <div class="tami100_slider_img"><img style="width: 100%; max-width: 182px;" alt="" src="..\images\podbor\tami100\tami100_2.jpg"></div>
+                       <div class="tami100_slider_img"><img style="width: 100%; max-width: 182px;" alt="" src="..\images\podbor\tami100\tami100_2.jpg"></div>
+                    </div>
+                </div>
+                <div class="tami100_item">
+                    <div class="tami100_item_Suptitle">выберите свой</div>
+                    <div class="tami100_item_title">tami 100</div>
+                    <div class="border">
+                        <hr class="borders borders--green">
+                        <hr class="borders borders--greenYel">
+                        <hr class="borders borders--yellow">
+                        <hr class="borders borders--black">
+                    </div>
+                    <div class="tami100_characteristic">
+                        <div class="tami100_characteristic_item">
+                            <div class="tami100_characteristic_item_name">Белый кирпич</div>
+                            <div class="tami100_characteristic_item_img"><img style="width: 100%; max-width: 328px;" alt="" src="..\images\podbor\tami100\bg.jpg"></div>
+                        </div>
+                        <div class="tami100_characteristic_item">
+                            <div class="tami100_characteristic_item_name">Белая штукатурка</div>
+                            <div class="tami100_characteristic_item_img"><img style="width: 100%; max-width: 328px;" alt="" src="..\images\podbor\tami100\pr.jpg"></div>
+                        </div>
+                        <div class="tami100_characteristic_item">
+                            <div class="tami100_characteristic_item_name">Дерево</div>
+                            <div class="tami100_characteristic_item_img"><img style="width: 100%; max-width: 328px;" alt="" src="..\images\podbor\tami100\w.jpg"></div>
+                        </div>
+                        <div class="tami100_characteristic_item">
+                            <div class="tami100_characteristic_item_name">Темный кирпич</div>
+                            <div class="tami100_characteristic_item_img"><img style="width: 100%; max-width: 328px;" alt="" src="..\images\podbor\tami100\b.jpg"></div>
+                        </div>
+                        <div class="tami100_characteristic_item">
+                            <div class="tami100_characteristic_item_name">Белый кирпич</div>
+                            <div class="tami100_characteristic_item_img"><img style="width: 100%; max-width: 328px;" alt="" src="..\images\podbor\tami100\bg.jpg"></div>
+                        </div>
+                        <div class="tami100_characteristic_item">
+                            <div class="tami100_characteristic_item_name">Белая штукатурка</div>
+                            <div class="tami100_characteristic_item_img"><img style="width: 100%; max-width: 328px;" alt="" src="..\images\podbor\tami100\pr.jpg"></div>
+                        </div>
+                        <div class="tami100_characteristic_item">
+                            <div class="tami100_characteristic_item_name">Дерево</div>
+                            <div class="tami100_characteristic_item_img"><img style="width: 100%; max-width: 328px;" alt="" src="..\images\podbor\tami100\w.jpg"></div>
+                        </div>
+                        <div class="tami100_characteristic_item">
+                            <div class="tami100_characteristic_item_name">Темный кирпич</div>
+                            <div class="tami100_characteristic_item_img"><img style="width: 100%; max-width: 328px;" alt="" src="..\images\podbor\tami100\b.jpg"></div>
+                        </div>
+                    </div>
+                    <div class="tami100_price">
+                        <div class="tami100_price_1">5 920 000 рублей</div>
+                        <div class="tami100_price_2">55 500 рублей в месяц</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="lumi100_modul">
+                <div class="lumi100_itemText lumi100_itemText--left">
+                    <div class="lumi100_title"><p>LUMI 100</p><p>СОВРЕМЕННОЕ СОВЕРШЕНСТВО</p></div>
+                    <div class="border border--lumi100">
+                        <hr class="borders borders--green">
+                        <hr class="borders borders--greenYel">
+                        <hr class="borders borders--yellow">
+                        <hr class="borders borders--black">
+                    </div>
+                    <div class="lumi100_text">
+                        <div class="lumi100_sup_text"><p>Минималистичный дом в лучших традициях конструктивизма. Выбор тех, кого привлекает современная архитектура, в которой нет ни одной лишней детали.</p>
+                        <p>Lumi 100 от Ecolund отличает очень высокая эффективность площади. Проект разработан так, чтобы каждое помещение было удобно использовать, и вы получили максимум полезного жилого пространства. В таком доме легко и удобно: заниматься делами, спокойно отдыхать или пригласить друзей на яркую загородную вечеринку.</p></div>
+                        </div>
+                </div>
+                <div class="lumi100_itemImg lumi100_itemImg--right" id="one_2">
+                    <img alt="" src="../images/podbor/lumi1000/ECOLUND-podbor-5_25.jpg" id="img3">
+                    <div class="border border--lumi100Img" id="one_1">
+                        <hr class="borders borders--green">
+                        <hr class="borders borders--greenYel">
+                        <hr class="borders borders--yellow">
+                        <hr class="borders borders--black">
+                    </div>
+                </div>
+            </div>
+            <div class="lumi100_characteristic">
+                <div class="lumi100_characteristic_title">Технические характеристики</div>
+                <div class="lumi100_characteristic_item">
+                    <div class="lumi100_characteristic_item_name">Общая площадь</div>
+                    <div class="lumi100_characteristic_item_num">112 кв.м.</div>
+                </div>
+                <div class="lumi100_characteristic_item">
+                    <div class="lumi100_characteristic_item_name">Отапливаемая площадь</div>
+                    <div class="lumi100_characteristic_item_num">112 кв.м.</div>
+                </div>
+                <div class="lumi100_characteristic_button" id="btn1">развернуть таблицу</div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="layout_title">выберите планировку</div>
+            <div class="border border--layout" id="one">
+                <hr class="borders borders--green">
+                <hr class="borders borders--greenYel">
+                <hr class="borders borders--yellow">
+                <hr class="borders borders--black">
+            </div>
+            <div class="layout">
+                <div class="layout_item">
+                    <button class="layout_buttom">100 кв.м.</button>
+                    <div class="layout_spisok">
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Холл</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Гостиная</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Ванная</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Туалет</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Кладовая</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Бойлерная</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Гараж</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Спальня</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Кухня</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Сауна</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Спортзал</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Бильярдная</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Кинотеатр</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Курилка</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Холл</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Гостиная</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Ванная</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Туалет</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Кладовая</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Бойлерная</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Гараж</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Спальня</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Кухня</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Сауна</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Спортзал</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Бильярдная</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Кинотеатр</div>
+                        </div>
+                        <div class="layout_item_item">
+                            <div class="button-cover">
+                                <div class="button r" id="button-1">
+                                    <input class="checkbox" type="checkbox">
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                            <div class="layout_item_item_name">Курилка</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layout_item">
+                    <img alt="" src="..\images\podbor\layout\layout.jpg" id="img2">
+                    <div class="layout_item_img_button_item">
+                        <div class="layout_item_img_button layout_item_img_button--1">1 этаж</div>
+                        <div class="layout_item_img_button layout_item_img_button--2">2 этаж</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+       <div class="container">
+            <div class="section_title">выберите опции</div>
+            <div class="border border--section">
+                <hr class="borders borders--green">
+                <hr class="borders borders--greenYel">
+                <hr class="borders borders--yellow">
+                <hr class="borders borders--black">
+            </div>
+            <div class="options">
+                <div class="options_item">
+                    <div class="options_item_img"><img style="width: 100%; max-width: 270px;" alt="" src="../images/podbor/options/ECOLUND-podbor-5_33.jpg"></div>
+                    <div class="options_item_content">
+                        <div class="options_item_content_title">Теплый пол</div>
+                        <div class="options_item_content_button">Добавить</div>
+                    </div>
+                </div>
+                <div class="options_item">
+                    <div class="options_item_img"><img style="width: 100%; max-width: 270px;" src="../images/podbor/options/ECOLUND-podbor-5_35.jpg" alt=""></div>
+                    <div class="options_item_content">
+                        <div class="options_item_content_title">Инженерный пакет</div>
+                        <div class="options_item_content_button">Добавить</div>
+                    </div>
+                </div>
+                <div class="options_item">
+                    <div class="options_item_img"><img style="width: 100%; max-width: 270px;" src="../images/podbor/options/ECOLUND-podbor-5_37.jpg" alt=""></div>
+                    <div class="options_item_content">
+                        <div class="options_item_content_title">Газовый котел BOSСH</div>
+                        <div class="options_item_content_button">Добавить</div>
+                    </div>
+                </div>
+                <div class="options_item">
+                    <div class="options_item_img"><img style="width: 100%; max-width: 270px;" src="../images/podbor/options/ECOLUND-podbor-5_39.jpg" alt=""></div>
+                    <div class="options_item_content">
+                        <div class="options_item_content_title">Теплонасос и кондиционер <p>MITSUBISHI</p></div>
+                        <div class="options_item_content_button" style="margin-top: 5%;">Добавить</div>
+                    </div>
+                </div>
+            </div>
+            <div class="lumi100_characteristic_button">Смотреть еще</div>
+       </div>
+
+
+
+    </section>
+
+    <section class="section">
+            <div class="container">
+                <div class="section_title">Технология и стоимость строительства</div>
+                <div class="border border--section">
+                    <hr class="borders borders--green">
+                    <hr class="borders borders--greenYel">
+                    <hr class="borders borders--yellow">
+                    <hr class="borders borders--black">
+                </div>
+                <div class="technology">
+                    <div class="technology_modul technology_modul--tab">
+                        <div class="technology_item">
+                            <div class="technology_item_title technology_item_title--smole">Условные обозначения</div>
+                            <div class="technology_item_content">
+                                <div class="designations">
+
+                                    <div class="designations_item">
+                                        <div class="designations_item_icon">
+                                            <img src="../images/podbor/icon/galka_grin_03.png" alt="">
+                                        </div>
+                                        <div class="designations_item_text">Входит в комплектацию</div>
+                                    </div>
+
+                                    <div class="designations_item">
+                                        <div class="designations_item_icon">
+                                            <img src="../images/podbor/icon/galka_neGrin_03.png" alt="">
+                                        </div>
+                                        <div class="designations_item_text">Выбрано дополнительно</div>
+                                    </div>
+
+                                    <div class="designations_item">
+                                        <div class="designations_item_icon">
+                                            <img src="../images/podbor/icon/plus_03.png" alt="">
+                                        </div>
+                                        <div class="designations_item_text" id="two">За дополнительную плату</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="technology_item">
+                            <div class="technology_item_price">
+                                <div class="technology_item_price_title">Теплый контур с фасадной отделкой</div>
+                                <div class="technology_item_supPrice">5 909 105 р.</div>
+                                <div class="technology_item_anderPrice">2 665 р./кв.м.</div>
+                            </div>
+                        </div>
+                        <div class="technology_item">
+                            <div class="technology_item_price">
+                                <div class="technology_item_price_title">Дом под ключ с выбранными опциями</div>
+                                <div class="technology_item_supPrice">10 909 105 р.</div>
+                                <div class="technology_item_anderPrice">32 665 р./кв.м.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="technology_modul technology_modul--tab">
+                        <div class="technology_item technology_item--big">
+                            <div class="technology_item_title">Фундамент</div>
+                            <div class="technology_item_content">
+                                <div class="technology_item_text">Индивидуальный расчётный фундамент* УШП PRO - утепленная шведская плита, высота цоколя 320 мм, с утеплением 200 мм, с прокладкой закладных гильз для ввода-вывода инженерных коммуникаций и устройством стяжки пола 120 мм с системой жидкостного теплого пола.</div>
+                            </div>
+                        </div>
+                        <div class="technology_item_status">
+                            <div class="technology_item_status">
+                                <img src="../images/podbor/icon/galka_grin_03.png" alt="">
+                            </div>
+                        </div>
+                        <div class="technology_item_status">
+                            <div class="technology_item">
+                                <img src="../images/podbor/icon/galka_neGrin_03.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="technology_modul technology_modul--tab">
+                        <div class="technology_item technology_item--big">
+                            <div class="technology_item_title">Несущие и ограждающие конструкции</div>
+                            <div class="technology_item_content">
+                                <div class="technology_item_text technology_item_text--smole" style="padding-top: 3%; padding-bottom: 3%;">Монтаж обвязочной доски</div>
+                            </div>
+                        </div>
+                        <div class="technology_item_status technology_item_status--smole">
+                            <div class="technology_item_status">
+                                <img src="../images/podbor/icon/krest.png" alt="">
+                            </div>
+                        </div>
+                        <div class="technology_item_status technology_item_status--smole">
+                            <div class="technology_item">
+                                <img src="../images/podbor/icon/plus_03.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="technology_modul technology_modul--smole">
+                        <div class="technology_item technology_item--big">
+                            <div class="technology_item_content">
+                                <div class="technology_item_text technology_item_text--smole" style="padding-top: 3%; padding-bottom: 3%; margin-bottom: 5%;">Внутренние несущие стены – каркас из бруса 45х145 мм.</div>
+                            </div>
+                        </div>
+                        <div class="technology_item_status technology_item_status--smole">
+                            <div class="technology_item_status">
+                                <img style="margin-top: -50px;" alt="" src="../images/podbor/icon/krest.png">
+                            </div>
+                        </div>
+                        <div class="technology_item_status technology_item_status--smole">
+                            <div class="technology_item">
+                                <img style="margin-top: -50px;" alt="" src="../images/podbor/icon/galka_neGrin_03.png">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lumi100_characteristic_button">развернуть таблицу</div>
+
+                </div>
+            </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="section_title">график строительства дома</div>
+            <div class="border border--section">
+                <hr class="borders borders--green">
+                <hr class="borders borders--greenYel">
+                <hr class="borders borders--yellow">
+                <hr class="borders borders--black">
+            </div>
+            <div class="sup_tub">
+                Выберите дату начала строительства
+                <input name="date" size="1" type="date" class="date">
+
+
+                <table>
+                  <tr>
+                    <th id="five_1">Этапы строительства</th>
+                    <th>Сентябрь</th>
+                    <th>Октябрь</th>
+                    <th>Ноябрь</th>
+                    <th>Декабрь</th>
+                    <th>Январь</th>
+                    <th>Февраль</th>
+                  </tr>
+                  <tr>
+                    <td>ПРОЕКТ</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>ФУНДАМЕНТ УШП</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>КОНСТРУКЦИИ</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>КРОВЛЯ</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>УТЕПЛЕНИЕ</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>ФАСАД, ОКНА,ВНЕШНИЕ ДВЕРИ</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>ФИНИШНАЯ ОКРАСКА</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </table>
+
+                <div class="lumi100_characteristic_button lumi100_characteristic_button--tab">развернуть таблицу</div>
+
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="section_title">Ответы на вопросы</div>
+            <div class="border border--section">
+                <hr class="borders borders--green">
+                <hr class="borders borders--greenYel">
+                <hr class="borders borders--yellow">
+                <hr class="borders borders--black">
+            </div>
+            <div class="question">
+                <div class="question_item1">
+                    <div class="block">
+                        <div class="hover"><u>Цена не изменится в процессе строительства?</u></div>
+                        <span class="hidden">Нет. На сайте мы публикуем честные цены — никаких скрытых платежей и обязательных доплат. На этапе подписания договора вы получаете точную и понятную смету. Нам нравится работать честно. Мы хотим тратить свое время на строительство качественных домов, а не на манипуляции доверием клиентов и рекламные уловки.</span>
+                    </div>
+                    <div class="block">
+                        <div class="hover"><u>За счет чего вы экономите?</u></div>
+                        <span class="hidden">Нет. На сайте мы публикуем честные цены — никаких скрытых платежей и обязательных доплат. На этапе подписания договора вы получаете точную и понятную смету. Нам нравится работать честно. Мы хотим тратить свое время на строительство качественных домов, а не на манипуляции доверием клиентов и рекламные уловки.</span>
+                    </div>
+                    <div class="block">
+                        <div class="hover"><u>Что позволяет снизить стоимость домов Ecolund?</u></div>
+                        <span class="hidden">Нет. На сайте мы публикуем честные цены — никаких скрытых платежей и обязательных доплат. На этапе подписания договора вы получаете точную и понятную смету. Нам нравится работать честно. Мы хотим тратить свое время на строительство качественных домов, а не на манипуляции доверием клиентов и рекламные уловки.</span>
+                    </div>
+                    <div class="block">
+                        <div class="hover"><u>Что по поводу баланса цены и качества?</u></div>
+                        <span class="hidden">Нет. На сайте мы публикуем честные цены — никаких скрытых платежей и обязательных доплат. На этапе подписания договора вы получаете точную и понятную смету. Нам нравится работать честно. Мы хотим тратить свое время на строительство качественных домов, а не на манипуляции доверием клиентов и рекламные уловки.</span>
+                    </div>
+                    <div class="block">
+                        <div class="hover"><u>Но каркасные дома стоят дешевле?</u></div>
+                        <span class="hidden">Нет. На сайте мы публикуем честные цены — никаких скрытых платежей и обязательных доплат. На этапе подписания договора вы получаете точную и понятную смету. Нам нравится работать честно. Мы хотим тратить свое время на строительство качественных домов, а не на манипуляции доверием клиентов и рекламные уловки.</span>
+                    </div>
+                    <div class="block">
+                        <div class="hover"><u>Почему ваши конкуренты предлагают цену ниже?</u></div>
+                        <span class="hidden">Нет. На сайте мы публикуем честные цены — никаких скрытых платежей и обязательных доплат. На этапе подписания договора вы получаете точную и понятную смету. Нам нравится работать честно. Мы хотим тратить свое время на строительство качественных домов, а не на манипуляции доверием клиентов и рекламные уловки.</span>
+                    </div>
+                    <div class="block">
+                        <div class="hover"><u>Есть ли ипотека?</u></div>
+                        <span class="hidden">Нет. На сайте мы публикуем честные цены — никаких скрытых платежей и обязательных доплат. На этапе подписания договора вы получаете точную и понятную смету. Нам нравится работать честно. Мы хотим тратить свое время на строительство качественных домов, а не на манипуляции доверием клиентов и рекламные уловки.</span>
+                    </div>
+                </div>
+
+                <div class="question_item1">
+                    <div class="block">
+                        <div class="hover"><u>За счет чего вы экономите?</u></div>
+                        <span class="hidden">Нет. На сайте мы публикуем честные цены — никаких скрытых платежей и обязательных доплат. На этапе подписания договора вы получаете точную и понятную смету. Нам нравится работать честно. Мы хотим тратить свое время на строительство качественных домов, а не на манипуляции доверием клиентов и рекламные уловки.</span>
+                    </div>
+                    <div class="block">
+                        <div class="hover"><u>Что позволяет снизить стоимость домов Ecolund?</u></div>
+                        <span class="hidden">Нет. На сайте мы публикуем честные цены — никаких скрытых платежей и обязательных доплат. На этапе подписания договора вы получаете точную и понятную смету. Нам нравится работать честно. Мы хотим тратить свое время на строительство качественных домов, а не на манипуляции доверием клиентов и рекламные уловки.</span>
+                    </div>
+                    <div class="block">
+                        <div class="hover"><u>Что по поводу баланса цены и качества?</u></div>
+                        <span class="hidden">Нет. На сайте мы публикуем честные цены — никаких скрытых платежей и обязательных доплат. На этапе подписания договора вы получаете точную и понятную смету. Нам нравится работать честно. Мы хотим тратить свое время на строительство качественных домов, а не на манипуляции доверием клиентов и рекламные уловки.</span>
+                    </div>
+                    <div class="block">
+                        <div class="hover"><u>Но каркасные дома стоят дешевле?</u></div>
+                        <span class="hidden">Нет. На сайте мы публикуем честные цены — никаких скрытых платежей и обязательных доплат. На этапе подписания договора вы получаете точную и понятную смету. Нам нравится работать честно. Мы хотим тратить свое время на строительство качественных домов, а не на манипуляции доверием клиентов и рекламные уловки.</span>
+                    </div>
+                    <div class="block">
+                        <div class="hover"><u>Почему ваши конкуренты предлагают цену ниже?</u></div>
+                        <span class="hidden">Нет. На сайте мы публикуем честные цены — никаких скрытых платежей и обязательных доплат. На этапе подписания договора вы получаете точную и понятную смету. Нам нравится работать честно. Мы хотим тратить свое время на строительство качественных домов, а не на манипуляции доверием клиентов и рекламные уловки.</span>
+                    </div>
+                    <div class="block">
+                        <div class="hover"><u>Есть ли ипотека?</u></div>
+                        <span class="hidden">Нет. На сайте мы публикуем честные цены — никаких скрытых платежей и обязательных доплат. На этапе подписания договора вы получаете точную и понятную смету. Нам нравится работать честно. Мы хотим тратить свое время на строительство качественных домов, а не на манипуляции доверием клиентов и рекламные уловки.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="section1">
+       <div class="container">
+            <div class="title_page">
+                 <div class="title_text">общая стоимость дома</div>
+                 <div class="border border--title" id="ten_1">
+                    <hr class="borders borders--green">
+                    <hr class="borders borders--greenYel">
+                    <hr class="borders borders--yellow">
+                    <hr class="borders borders--black">
+                </div>
+                <div class="under_title_text">
+                    <span>Tami 100 Richbrik</span>
+                    <span>5,9 млн рублей</span>
+                </div>
+                <div class="under_title_text_under">Или в кредит 55 000 рублей в месяц</div>
+            </div>
+            <form action="podbor.html">
+                <input class="form_input" type="name" placeholder="Имя" id="form_input">
+                <input class="form_input" type="email" placeholder="Email">
+                <input class="form_input" type="tel" placeholder="Телефон">
+                <button class="form_call">Перезвонить мне</button>
+            </form>
+            <div class="pdf">
+              <img src="..\images\page1\icon\pdf.png" id="pdf_2">
+              <a href="#" id="pdf_1"><u>Скачать PDF</u></a>
+            </div>
+       </div>
+    </section>
+    <footer>
+        <div class="border">
+            <hr class="borders borders--green">
+            <hr class="borders borders--greenYel">
+            <hr class="borders borders--yellow">
+            <hr class="borders borders--black">
+        </div>
+        <div class="container">
+            <div class="footer_inner">
+                <div class="logo">
+                    <img src="../images/page1/logo/logoWhite.png" alt="" id="logo">
+                </div>
+                <nav class="nav_footer">
+                    <a href="../index.html" class="nav_link_footer">Главная</a>
+                    <a href="podbor.html" class="nav_link_footer">Дома 2020</a>
+                    <a href="podbor.html" class="nav_link_footer">Дом с участком</a>
+                    <a href="technology.html" class="nav_link_footer">Технологии</a>
+                    <a href="postroenDom.html" class="nav_link_footer">Построенные дома</a>
+                    <a href="contacts.html" class="nav_link_footer">О нас/Контакт</a>
+                </nav>
+            </div>
+            <div class="footer_content">
+                <div class="footer_info">
+                    <div class="footer_place">
+                        <div class="icon_place"><img src="../images/page1/icon/place.png" alt=""></div>
+                        <div class="text_place">Москва, пр.Ленина, 123 ТЦ "Плаза", оф.123</div>
+                    </div>
+                    <div class="footer_email">
+                        <span class="icon_email"><img src="../images/page1/icon/email.png" alt=""></span>
+                        <a class="text_email">info@email.ru</a>
+                    </div>
+                </div>
+                <div class="footer_copirate">Ecolund @ 2012-2020</div>
+                <div class="footer_contacts">
+                    <div class="footer_phone">
+                        <span class="icon_phone"><img src="../images/page1/icon/phone.png" alt=""></span>
+                        <span class="text_phone">8 800 2000 500</span>
+                    </div>
+                    <div class="footer_massenger">
+                        <a href="podbor.html#" class="massenger_fb"><img src="../images/page1/icon/fb.png" alt=""></a>
+                        <a href="podbor.html#" class="massenger_vk"><img src="../images/page1/icon/vk.png" alt=""></a>
+                        <a href="podbor.html#" class="massenger_instagram"><img src="../images/page1/icon/instagram.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
